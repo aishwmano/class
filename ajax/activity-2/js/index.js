@@ -46,7 +46,7 @@ function updatePage() {
     state.url = '';
     state.description = '';
     state.title = '';
-    $("#page_title").text("Top " + state.data.length + " Blogs")
+    $("#page_title").text("Top " + state.data.length + " Visualization Blogs")
     renderList();
     updateButton();
 }
